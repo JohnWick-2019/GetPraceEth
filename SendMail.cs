@@ -30,7 +30,7 @@ namespace GetPraceEth
                 messeg.IsBodyHtml = true;
 
                 SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-                smtp.Credentials = new NetworkCredential("To@mail.com", "ZaQ12WsX");
+                smtp.Credentials = new NetworkCredential("To@mail.com", "EmailPass");
                 smtp.EnableSsl = true;
 
                 smtp.Send(messeg);                
