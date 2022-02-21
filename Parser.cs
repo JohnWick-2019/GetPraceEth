@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace GetPraceEth
 {
+    /// <summary>
+    /// This class contains all the logic for getting price data from the site.
+    /// </summary>
     class Parser
     {
         private IConfiguration config = Configuration.Default.WithDefaultLoader();
         private string address = "https://coinmarketcap.com/currencies/bitcoin/markets/";
-
+       
         public List<string> Parse()
         {
             using (var document = BrowsingContext.New(config).OpenAsync(address))

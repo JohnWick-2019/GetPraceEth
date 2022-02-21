@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace GetPraceEth
 {
+
+    /// <summary>
+    /// This class contains the logic for setting up sending a message.
+    /// </summary>
     class SendMail
     {
         private static MailAddress from;

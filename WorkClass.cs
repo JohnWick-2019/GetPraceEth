@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GetPraceEth
 {
+    /// <summary>
+    /// The class combines the logic of getting a price and sending a message.
+    /// </summary>
     class WorkClass
     {
         public static void Show()
